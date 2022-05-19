@@ -9,12 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-lottie": "^1.2.3"
   },
   "devDependencies": {
-    "eslint": "8.15.0",
-    "eslint-config-next": "12.1.6"
+    "@types/node": "^17.0.34",
+    "@types/react": "^18.0.9",
+    "@types/react-lottie": "^1.2.6",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "prettier": "^2.6.2",
+    "sass": "^1.51.0",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.4"
   }
 }
