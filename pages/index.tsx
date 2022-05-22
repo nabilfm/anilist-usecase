@@ -4,12 +4,13 @@ export default function Home() {
   useEffect(() => {
     try {
       window.flutter_inappwebview.callHandler('enableButton')
-          .then(function (result) {
+          .then(function (result: any) {
             // print to the console the data coming
             // from the Flutter side.
             console.log(JSON.stringify(result));
           });
     } catch (e) {
+      // @ts-ignore
       console.warn(`error: ${e.toString()}`)
     }
   }, [])
